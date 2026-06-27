@@ -1,0 +1,12 @@
+/C:\Users\piyus\Documents\junior_teach\attn\models\23EBUCS067
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+ENV/
+.venv/
+.python-version
+*.log
+*.pot
+*.pyc

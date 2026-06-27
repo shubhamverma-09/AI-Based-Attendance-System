@@ -1,0 +1,1017 @@
+[
+{
+  "model": "attendence.semester",
+  "pk": 1,
+  "fields": {
+    "name": "1st Semester"
+  }
+},
+{
+  "model": "attendence.semester",
+  "pk": 2,
+  "fields": {
+    "name": "2nd Semester"
+  }
+},
+{
+  "model": "attendence.semester",
+  "pk": 3,
+  "fields": {
+    "name": "3rd Semester"
+  }
+},
+{
+  "model": "attendence.semester",
+  "pk": 4,
+  "fields": {
+    "name": "4th Semester"
+  }
+},
+{
+  "model": "attendence.semester",
+  "pk": 5,
+  "fields": {
+    "name": "5th Semester"
+  }
+},
+{
+  "model": "attendence.semester",
+  "pk": 6,
+  "fields": {
+    "name": "6th Semester"
+  }
+},
+{
+  "model": "attendence.semester",
+  "pk": 7,
+  "fields": {
+    "name": "7th Semester"
+  }
+},
+{
+  "model": "attendence.semester",
+  "pk": 8,
+  "fields": {
+    "name": "8th Semester"
+  }
+},
+{
+  "model": "attendence.section",
+  "pk": 1,
+  "fields": {
+    "name": "A"
+  }
+},
+{
+  "model": "attendence.section",
+  "pk": 2,
+  "fields": {
+    "name": "B"
+  }
+},
+{
+  "model": "attendence.section",
+  "pk": 3,
+  "fields": {
+    "name": "B1"
+  }
+},
+{
+  "model": "attendence.section",
+  "pk": 4,
+  "fields": {
+    "name": "B2"
+  }
+},
+{
+  "model": "attendence.device",
+  "pk": 1,
+  "fields": {
+    "code": "XYZ",
+    "semester": 5,
+    "section": 2
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 1,
+  "fields": {
+    "code": "5CS4-01",
+    "name": "Operating Systems"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 2,
+  "fields": {
+    "code": "5CS4-02",
+    "name": "Computer Organization and Architecture"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 3,
+  "fields": {
+    "code": "5CS4-03",
+    "name": "Computer Networks"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 4,
+  "fields": {
+    "code": "5CS4-04",
+    "name": "Cloud Computing and DevOps Tools"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 5,
+  "fields": {
+    "code": "5CS4-05",
+    "name": "Machine Learning"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 6,
+  "fields": {
+    "code": "5CS5-11",
+    "name": "Human Computer Interaction"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 7,
+  "fields": {
+    "code": "5CS5-12",
+    "name": "Introduction to Data Science"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 8,
+  "fields": {
+    "code": "5CS5-13",
+    "name": "Distributed Systems"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 9,
+  "fields": {
+    "code": "5CS5-14",
+    "name": "Augmented Reality and Virtual Reality"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 10,
+  "fields": {
+    "code": "5CS5-15",
+    "name": "Introduction to Blockchain"
+  }
+},
+{
+  "model": "attendence.subject",
+  "pk": 11,
+  "fields": {
+    "code": "5CS5-16",
+    "name": "Data Mining and Warehousing"
+  }
+},
+{
+  "model": "attendence.student",
+  "pk": 1,
+  "fields": {
+    "roll_no": "23EBUCS014",
+    "name": "Ashutosh",
+    "email": null,
+    "phone": null,
+    "section": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "attendence.student",
+  "pk": 2,
+  "fields": {
+    "roll_no": "23EBUCS016",
+    "name": "Bhanupratap",
+    "email": null,
+    "phone": null,
+    "section": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "attendence.student",
+  "pk": 3,
+  "fields": {
+    "roll_no": "23EBUCS021",
+    "name": "Dhruv Gaur",
+    "email": null,
+    "phone": null,
+    "section": 1,
+    "semester": 5
+  }
+},
+{
+  "model": "attendence.student",
+  "pk": 5,
+  "fields": {
+    "roll_no": "23EBUCS073",
+    "name": "Shubham Verma",
+    "email": null,
+    "phone": null,
+    "section": 2,
+    "semester": 5
+  }
+},
+{
+  "model": "attendence.student",
+  "pk": 6,
+  "fields": {
+    "roll_no": "23EBUCS083",
+    "name": "Yogesh Swami",
+    "email": null,
+    "phone": null,
+    "section": 2,
+    "semester": 5
+  }
+},
+{
+  "model": "attendence.student",
+  "pk": 7,
+  "fields": {
+    "roll_no": "23EBUCS067",
+    "name": "Rohit Panchariya",
+    "email": null,
+    "phone": null,
+    "section": 2,
+    "semester": 5
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 4,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 2,
+    "weekday": 0,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 5,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 1,
+    "weekday": 0,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 6,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 3,
+    "weekday": 0,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 7,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 1,
+    "weekday": 1,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 8,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 3,
+    "weekday": 1,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 9,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 2,
+    "weekday": 1,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 10,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 3,
+    "weekday": 2,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 11,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 2,
+    "weekday": 2,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 12,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 1,
+    "weekday": 2,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 13,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 7,
+    "weekday": 3,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 14,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 4,
+    "weekday": 3,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 15,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 5,
+    "weekday": 3,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 16,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 5,
+    "weekday": 4,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 17,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 11,
+    "weekday": 4,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 18,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 4,
+    "weekday": 4,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 19,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 7,
+    "weekday": 4,
+    "start": "12:20:00",
+    "end": "13:10:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 20,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 11,
+    "weekday": 5,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 21,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 2,
+    "weekday": 5,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 22,
+  "fields": {
+    "semester": 5,
+    "section": 1,
+    "subject": 5,
+    "weekday": 5,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 23,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 3,
+    "weekday": 0,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 24,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 5,
+    "weekday": 0,
+    "start": "11:30:00",
+    "end": "12:20:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 25,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 4,
+    "weekday": 0,
+    "start": "12:20:00",
+    "end": "13:10:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 26,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 4,
+    "weekday": 1,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 27,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 5,
+    "weekday": 1,
+    "start": "11:30:00",
+    "end": "12:20:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 28,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 3,
+    "weekday": 1,
+    "start": "12:20:00",
+    "end": "13:10:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 29,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 5,
+    "weekday": 2,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 30,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 1,
+    "weekday": 2,
+    "start": "11:30:00",
+    "end": "12:20:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 31,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 4,
+    "weekday": 2,
+    "start": "12:20:00",
+    "end": "13:10:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 32,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 2,
+    "weekday": 3,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 33,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 1,
+    "weekday": 3,
+    "start": "11:30:00",
+    "end": "12:20:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 34,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 2,
+    "weekday": 4,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 35,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 11,
+    "weekday": 4,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 36,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 1,
+    "weekday": 4,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 37,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 7,
+    "weekday": 4,
+    "start": "11:30:00",
+    "end": "12:20:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 38,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 11,
+    "weekday": 5,
+    "start": "09:00:00",
+    "end": "09:50:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 39,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 2,
+    "weekday": 5,
+    "start": "09:50:00",
+    "end": "10:40:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 40,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 3,
+    "weekday": 5,
+    "start": "10:40:00",
+    "end": "11:30:00"
+  }
+},
+{
+  "model": "attendence.timetableslot",
+  "pk": 41,
+  "fields": {
+    "semester": 5,
+    "section": 2,
+    "subject": 7,
+    "weekday": 5,
+    "start": "11:30:00",
+    "end": "12:20:00"
+  }
+},
+{
+  "model": "attendence.attendencesummary",
+  "pk": 5,
+  "fields": {
+    "date": "2025-09-20",
+    "slot": 41,
+    "student": 7,
+    "status": "Present",
+    "first_seen_at": null,
+    "max_confidence": null
+  }
+},
+{
+  "model": "attendence.attendencesummary",
+  "pk": 6,
+  "fields": {
+    "date": "2025-09-20",
+    "slot": 41,
+    "student": 5,
+    "status": "Present",
+    "first_seen_at": null,
+    "max_confidence": null
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 1,
+  "fields": {
+    "last_login": null,
+    "email": "piyush@gmail.com",
+    "name": "Piyush Ladhar",
+    "password": "pbkdf2_sha256$1000000$H4Gi3bb2I8Lrus9eoM3DVT$iDEPHEGVWLHIKRcs9QEvqMpOvCaUA+XtlUmOirg/6YA=",
+    "role": "Admin",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 2,
+  "fields": {
+    "last_login": null,
+    "email": "dr.ajeet.singh.poonia@btu.ac.in",
+    "name": "Dr. Ajeet Singh Poonia",
+    "password": "pbkdf2_sha256$1000000$eMUc5mdU8VFNs6oSfVMvrK$5vX8Vdk9gU0zZJXZBf8U+jCoKWg2uXVoTf7wWvzlZqw=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 3,
+  "fields": {
+    "last_login": null,
+    "email": "mr.devender.daila@btu.ac.in",
+    "name": "Mr. Devender Daila",
+    "password": "pbkdf2_sha256$1000000$voNFTXqHkbqvtusJbWxXlj$Z85ekhVCkiCx/9DNlZnvXVUJS6AK4ZoxzRCA1+mrGcY=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 4,
+  "fields": {
+    "last_login": null,
+    "email": "mrs.gagandeep.kaur@btu.ac.in",
+    "name": "Mrs. Gagandeep Kaur",
+    "password": "pbkdf2_sha256$1000000$giTZHPYC2a5e11JNk0iMEF$yg87II+sGmzcmx083ZUtl+QjYfbiTxXb+Jdd0FaSTZc=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 5,
+  "fields": {
+    "last_login": null,
+    "email": "mr.jai.bhaskar@btu.ac.in",
+    "name": "Mr. Jai Bhaskar",
+    "password": "pbkdf2_sha256$1000000$X6uuYUv64zFC7ALbWNz6sh$OW1pirfRuS9gUbVN71ochPE2bSXEbgteHeHgHn07C/U=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 6,
+  "fields": {
+    "last_login": null,
+    "email": "dr.kapil.pandey@btu.ac.in",
+    "name": "Dr. Kapil Pandey",
+    "password": "pbkdf2_sha256$1000000$FhUeF87OLIY5rWx9zGctEo$MBiQ5zUW8res0UulXtHW8tCtMK13vYV3oN8ggf9fCM8=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 7,
+  "fields": {
+    "last_login": null,
+    "email": "mr.kartar.singh@btu.ac.in",
+    "name": "Mr. Kartar Singh",
+    "password": "pbkdf2_sha256$1000000$T3pXUrF2PGsFLEkywuiQqD$mbRfYRHEngbn6zO9BZtEipAScuoi4uc0hbmJ1/DB6lI=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 8,
+  "fields": {
+    "last_login": null,
+    "email": "mrs.neeraj.choudhary@btu.ac.in",
+    "name": "Mrs. Neeraj Choudhary",
+    "password": "pbkdf2_sha256$1000000$2qFsjmfMT5kdaywXStxu0I$zkOcO0nSPUKqy9t029+U8D95hHq5A39UlCFJwoGSeYQ=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 9,
+  "fields": {
+    "last_login": null,
+    "email": "dr.sunita.choudhary@btu.ac.in",
+    "name": "Dr. Sunita Choudhary",
+    "password": "pbkdf2_sha256$1000000$SyheJnKt2PuiZhYwyMarfT$zyAufIjgAMKdRbB7F0ZWzf5TLO8PkjaLht2m1x+pzjA=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 10,
+  "fields": {
+    "last_login": null,
+    "email": "mr.sandeep.kumar@btu.ac.in",
+    "name": "Mr. Sandeep Kumar",
+    "password": "pbkdf2_sha256$1000000$Jz34MYDjQ55MRLvjAHOX08$vXnMYinLv+MgRm4bmwrLy/rBK6wGfjidE3+nAyV+HD8=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.user",
+  "pk": 11,
+  "fields": {
+    "last_login": null,
+    "email": "dr.dharmendra.yadav@btu.ac.in",
+    "name": "Dr. Dharmendra Yadav",
+    "password": "pbkdf2_sha256$1000000$KxczaXYcHjjxvH262488qy$4YUg5NPYe6+qVk5WRfkpWaSWv89wRvwPnUJMuEYF9e8=",
+    "role": "Professor",
+    "is_active": true
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 1,
+  "fields": {
+    "subject": 1,
+    "semester": 5,
+    "section": 1,
+    "professor": 10
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 2,
+  "fields": {
+    "subject": 2,
+    "semester": 5,
+    "section": 1,
+    "professor": 4
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 3,
+  "fields": {
+    "subject": 3,
+    "semester": 5,
+    "section": 1,
+    "professor": 3
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 4,
+  "fields": {
+    "subject": 4,
+    "semester": 5,
+    "section": 1,
+    "professor": 5
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 5,
+  "fields": {
+    "subject": 5,
+    "semester": 5,
+    "section": 1,
+    "professor": 8
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 6,
+  "fields": {
+    "subject": 7,
+    "semester": 5,
+    "section": 1,
+    "professor": 8
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 7,
+  "fields": {
+    "subject": 11,
+    "semester": 5,
+    "section": 1,
+    "professor": 7
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 8,
+  "fields": {
+    "subject": 1,
+    "semester": 5,
+    "section": 2,
+    "professor": 10
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 9,
+  "fields": {
+    "subject": 2,
+    "semester": 5,
+    "section": 2,
+    "professor": 4
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 10,
+  "fields": {
+    "subject": 3,
+    "semester": 5,
+    "section": 2,
+    "professor": 11
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 11,
+  "fields": {
+    "subject": 4,
+    "semester": 5,
+    "section": 2,
+    "professor": 5
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 12,
+  "fields": {
+    "subject": 5,
+    "semester": 5,
+    "section": 2,
+    "professor": 8
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 13,
+  "fields": {
+    "subject": 7,
+    "semester": 5,
+    "section": 2,
+    "professor": 8
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 14,
+  "fields": {
+    "subject": 11,
+    "semester": 5,
+    "section": 2,
+    "professor": 7
+  }
+},
+{
+  "model": "attendence.teaching",
+  "pk": 15,
+  "fields": {
+    "subject": 10,
+    "semester": 5,
+    "section": 2,
+    "professor": 10
+  }
+}
+]
