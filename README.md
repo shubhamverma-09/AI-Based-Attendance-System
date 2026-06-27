@@ -130,7 +130,7 @@ Attendance Database
 ## 👨‍💻 Contributors
 
 * **Project Lead:** Piyush Ladhar
-* **Team Members:** Rohit Panchariya, Shubham Verma, Yogesh Swami, Rudrakash Tiwari, Ekta Verma, Palak Yadav, Mahak Agrawal, Vasu Mishra, Dhananjay Rajput
+* **Team Members:** Rohit Panchariya, Shubham Verma, Yogesh Swami, Rudrakash Tiwari
 
 ---
 
