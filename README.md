@@ -134,6 +134,17 @@ Attendance Database
 
 ---
 
+## My Contributions
+
+- Developed the complete Computer Vision pipeline
+- Implemented face detection using OpenCV
+- Built the face recognition module
+- Performed image preprocessing and feature extraction
+- Integrated real-time attendance marking
+- Tested and optimized the detection pipeline
+
+---
+
 ## 📜 License
 
 This project is for **educational and research purposes**.
